@@ -1,0 +1,5 @@
+在Python27/Lib/site-packages文件夹下创建sitecustomize.py文件，在文件内写下面的代码。
+
+import sys
+reload(sys)
+sys.setdefault('gbk')
